@@ -1,0 +1,8 @@
+@media (min-width: 768px) {
+    #posts {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  @media (max-width: 767px) {
+    #posts {
+      grid-template-columns: 1fr;
